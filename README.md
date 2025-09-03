@@ -16,4 +16,16 @@
 
 #### Year, GDP_per_capita.
 
-### Derived daily income = GDP_per_capita / 365.
+#### Derived daily income = GDP_per_capita / 365.
+
+
+-
+## ⚙️ Steps Taken
+
+- Step 1: Data Preparation
+
+#### Cleaned missing values, converted columns to numeric.
+
+#### Ensured consistent Year format for merging datasets.
+
+#### Calculated Daily Income ($) = GDP per capita ÷ 365.
