@@ -51,6 +51,7 @@ Cleaned missing values and ensured numeric formatting for key variables.
 Standardized Year format for merging across datasets.
 
 Created derived feature: Daily Income = GDP per capita ÷ 365.
+
 ---
 
 ## Exploratory Data Analysis (EDA)
