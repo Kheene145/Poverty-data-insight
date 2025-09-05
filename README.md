@@ -14,96 +14,122 @@
 
 
 ## Project Overview
-### This project analyzes global and regional trends in extreme poverty between 1985–2018, with a case study on Nigeria.
-### We combine poverty share data with GDP per capita to explore how poverty reduction relates to economic growth, and whether GDP growth translates to improved living standards.
-
+- This project analyzes global and regional trends in extreme poverty between 1985–2018, with a special case study on Nigeria.
+- By combining poverty share data with GDP per capita, the analysis explores whether economic growth translates into broad-based poverty reduction and improved living standards.
 ---
 
 
 
-## Dataset
+## Data Source
 
-### Poverty Dataset
+- Poverty Dataset:
 
-#### Country, Year, Poverty_Share (% of population in extreme poverty).
+- Columns: Country, Year, Share of Population in Poverty (% of population in extreme poverty)
 
-#### Source: World Bank & Our World in Data.
+- Source: World Bank, Our World in Data
 
-#### GDP Dataset (Nigeria)
+- GDP Dataset (Nigeria):
 
-#### Year, GDP_per_capita.
+- Columns: Year, GDP_per_capita
 
-#### Derived daily income = GDP_per_capita / 365.
+- Derived variable: Daily Income ($) = GDP_per_capita ÷ 365
 
-
-
-## ⚙️ Steps Taken
+---
 
 
-### 🔹 Step 1: Data Preparation
-
-#### Cleaned missing values, converted columns to numeric.
-
-#### Ensured consistent Year format for merging datasets.
-
-#### Calculated Daily Income ($) = GDP per capita ÷ 365.
+### Tools
+Python Libraries: Pandas, Matplotlib, Seaborn
+Jupyter Notebook: Data cleaning, analysis, and visualization
 
 
-## 🔹 Step 2: Exploratory Data Analysis (EDA)
+## Data Cleaning Preparation
 
-### Global Trend ➡️ Poverty declined from ~40% (1985) to ~10% (2018).
+In the initial data preparation phase, the following steps were carried out:
 
-#### Regional Comparison ➡️
+Cleaned missing values and ensured numeric formatting for key variables.
 
-#### East Asia reduced poverty fastest (China, Vietnam).
+Standardized Year format for merging across datasets.
 
-#### Sub-Saharan Africa still has the highest poverty rates.
+Created derived feature: Daily Income = GDP per capita ÷ 365.
+---
 
-#### Country Highlights ➡️ Identified top 10 countries with the greatest poverty reduction.
+## Exploratory Data Analysis (EDA)
 
+Key questions explored:
 
-### 🔹 Step 3: Visualizations
+How has global poverty changed between 1985–2018?
 
-#### Global Line Chart ➡️ Global average poverty share (1985–2018).
+Which regions reduced poverty fastest, and which lagged?
 
-#### Regional Multi-Line Chart ➡️ Africa vs. Asia vs. Latin America.
+Which countries achieved the largest poverty reduction?
 
-#### Bar Chart ➡️ Top 10 countries with largest % reduction.
+In Nigeria, does rising GDP per capita correspond to falling poverty share?
 
-#### Nigeria Dual-Axis Plot ➡️
+---
 
-#### ◾ Left axis: Poverty Share (%)
+### Data Analysis
 
-#### ◾ Right axis: Average Daily Income ($)
+The analysis involved:
 
+Line Charts: Global and regional poverty share trends.
 
-### 🔹 Step 4: Nigeria Case Study
+Multi-Line Comparison: Africa, Asia, and Latin America.
 
-#### Key finding: Nigeria’s dataset shows “daily income”  ~ $2.7/day, but millions live on <$2/day.
+Bar Plots: Top 10 countries with largest poverty reduction.
 
-###  🔹 Why the mismatch?
-
-#### 🔹 GDP per capita != wages ➡️ It’s an average of total economic output.
-
-#### 🔹 Inequality ➡️ A small elite earns much more, pulling the average up.
-
-#### 🔹 Informal economy ➡️ Many livelihoods are undercounted.
-
-#### 🔹 PPP adjustments ➡️ Poverty lines use purchasing power, not direct USD.
-
-#### Conclusion: Economic growth has not translated into broad poverty reduction in Nigeria.
+---
 
 
-### 📈 Insights
+### Results/Findings
 
-#### Global poverty has declined significantly, but unevenly.
+- Global: Poverty declined from ~40% (1985) to ~10% (2018), showing major progress.
 
-#### East Asia’s progress was rapid, Africa’s slower.
+#### Regional:
 
-#### Nigeria’s case highlights the gap between GDP and lived experience.
+- East Asia (e.g., China, Vietnam) achieved the fastest poverty reduction.
 
-#### GDP growth != poverty reduction when inequality remains high.
+- Sub-Saharan Africa remains the region with the highest poverty rates.
 
-#### Poverty analysis requires both macro indicators (GDP) and micro measures (household surveys, PPP, inequality).
+- Country-Level: Top 10 countries demonstrated significant reductions, led by East Asian economies.
 
-#### Reveals mismatch between GDP growth and poverty reduction.
+#### Nigeria Case Study:
+
+- Average daily income ~ $2.7/day, yet millions live on <$2/day.
+
+- Revealed mismatch between GDP growth and poverty reduction.
+
+- Key drivers: inequality, reliance on averages, informal economy, and differences in PPP-based poverty measures.
+
+---
+
+
+### Recommendations
+
+- Policy Focus: Pair GDP growth with redistributive policies to ensure benefits reach low-income households.
+
+- Targeted Programs: Increase investment in education, health, and rural development in Sub-Saharan Africa.
+
+- Income Measures: Complement GDP with household surveys, PPP-adjusted data, and inequality indices for realistic poverty tracking.
+
+- Nigeria: Implement poverty alleviation programs that directly target vulnerable populations, rather than relying solely on GDP growth.in Nigeria.
+
+---
+
+
+### Limitations
+
+- Poverty dataset limited to broad indicators, lacking household-level detail.
+
+- GDP per capita is an average and does not capture income inequality or wealth distribution.
+
+- Informal economic activity and regional disparities may be underrepresented.
+
+- No integration of qualitative data (e.g., employment, access to services, social protection).
+
+---
+
+### References
+
+World Bank Data – Poverty Indicators
+
+
