@@ -130,6 +130,16 @@ Bar Plots: Top 10 countries with largest poverty reduction.
 
 ### References
 
-World Bank Data – Poverty Indicators
+1. ourworldindata.org[https://ourworldindata.org/grapher/share-of-population-in-extreme-poverty?]
+   dataworldbank.org[https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=]
+
+2. Python libraries such as:
+   - Pandas
+   - Matplotlib
+   - Seaborn
+  
+     ---
+
+
 
 
