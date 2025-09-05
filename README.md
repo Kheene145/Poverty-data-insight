@@ -1,7 +1,24 @@
 #  📊 Extreme Poverty Analysis (1985–2018)
-## 📌 Project Overview
+
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Data Source](#data-source)
+- [Tools](#tools)
+- [Data Cleaning Preparation](#data-cleaning-preparation)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Data Analysis](#data-analysis)
+- [Results](#results)
+- [Recommendations](#recommendations)
+- [Limitation](#limitations)
+- [References](#references)
+
+
+## Project Overview
 ### This project analyzes global and regional trends in extreme poverty between 1985–2018, with a case study on Nigeria.
 ### We combine poverty share data with GDP per capita to explore how poverty reduction relates to economic growth, and whether GDP growth translates to improved living standards.
+
+---
+
 
 
 ## Dataset
